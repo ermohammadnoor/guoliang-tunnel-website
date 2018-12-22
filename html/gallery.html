@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<title>Guoliang Tunnel Road | Gallery</title>
+	<meta name="viewport" content="width=device-width ,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="..\css\gallery.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='../css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="..\images\logo1.jpg" >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="..\javascript\gallery.js"></script>
+
+</head>
+<body onload="carousel();">
+	<div id="main">
+		<div id="container">
+			<hr>
+			<div id="heading">
+				Gallery of Guoliang Tunnel
+				<i class="fa fa-navicon" id="navIcon"><span id="menu">MENU</span></i>
+			</div>	
+			<div id="navBar">
+				<ul class="topnav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="hotel.html">Hotel</a></li>
+					<li><a href="map.html">Maps</a></li>
+					<li><a href="danger.html">Danger of Guoliang </a></li>
+					<li><a href="visit.html">Visiting Guoliang</a></li>
+					<li><a href="guoliang360.html">Guoliang 360</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li class="right"><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="w3-content w3-section" id="slider" >
+				<img class="mySlides w3-animate-left" src="..\images\gallery\gt1.jpg" alt="" title="noor">
+				<img class="mySlides w3-animate-top" src="..\images\gallery\gt2.jpg" alt="" title="noor">
+				<img class="mySlides w3-animate-right" src="..\images\gallery\gt3.jpg" title="noor">
+				<img class="mySlides w3-animate-bottom" src="..\images\gallery\gt4.jpg" title="noor">
+			</div>
+			<!---->
+			<div id="imageSelector">
+		
+					<div class="imageSelectorDiv" id="one" ><img src="..\images\gallery\gt1.jpg"></div>
+					<div class="imageSelectorDiv" id="two" ><img src="..\images\gallery\gt2.jpg"></div>
+					<div class="imageSelectorDiv" id="three" ><img src="..\images\gallery\gt3.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt4.jpg"></div>
+					<!--<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt5.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt6.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt7.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt8.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt9.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt10.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt11.jpg"></div>
+					<div class="imageSelectorDiv" id="four" ><img src="..\images\gallery\gt12.jpg"></div>-->
+					<button id="more">(MORE...)</button>
+					<script type="text/javascript">
+						$(document).ready(function(){
+				    	$("#more").click(function(){
+				        $("#gallery1").slideToggle("fast");
+				   		 });
+						});
+						document.getElementById("one").onclick = function(){
+						myIndex = 0;
+						desireImage();
+						}
+						document.getElementById("two").onclick = function(){
+						myIndex = 1;
+						desireImage();
+						}
+						document.getElementById("three").onclick = function(){
+						myIndex = 2;
+						desireImage();
+						}
+						document.getElementById("four").onclick = function(){
+						myIndex = 3;
+						desireImage();
+						}
+					</script>
+			</div>
+			<div id="gallery1">
+				<div class="gallery">
+					<a href="..\images\gallery\gt1.jpg"><img src="..\images\gallery\gt1.jpg" alt="" title="Beautiful of Guoliang"/></a>
+					<a href="..\images\gallery\gt2.jpg"><img src="..\images\gallery\gt2.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt3.jpg"><img src="..\images\gallery\gt3.jpg" alt="" title="Beautiful Image"/></a>
+					<a href="..\images\gallery\gt4.jpg"><img src="..\images\gallery\gt4.jpg" alt="" title=""/></a>
+					
+					<a href="..\images\gallery\gt5.jpg"><img src="..\images\gallery\gt5.jpg" alt="" title="" /></a>
+					<a href="..\images\gallery\gt6.jpg"><img src="..\images\gallery\gt6.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt7.jpg" ><img src="..\images\gallery\gt7.jpg" alt="" title="" /></a>
+					<a href="..\images\gallery\gt8.jpg"><img src="..\images\gallery\gt8.jpg" alt="" title=""/></a>
+					
+					<a href="..\images\gallery\gt9.jpg" ><img src="..\images\gallery\gt9.jpg" alt="" title="" /></a>
+					<a href="..\images\gallery\gt10.jpg"><img src="..\images\gallery\gt10.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt11.jpg"><img src="..\images\gallery\gt11.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt12.jpg"><img src="..\images\gallery\gt12.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt13.jpg" ><img src="..\images\gallery\gt13.jpg" alt="" title="" /></a>
+					<a href="..\images\gallery\gt14.jpg"><img src="..\images\gallery\gt14.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt15.jpg"><img src="..\images\gallery\gt15.jpg" alt="" title=""/></a>
+					<a href="..\images\gallery\gt16.jpg"><img src="..\images\gallery\gt16.jpg" alt="" title=""/></a>
+				</div>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+				<script type="text/javascript" src="../javascript/simple-lightbox.js"></script>	
+				<script>
+				$(function(){
+					var $gallery = $('.gallery a').simpleLightbox();
+
+					$gallery.on('show.simplelightbox', function(){
+						console.log('Requested for showing');
+					})
+					.on('shown.simplelightbox', function(){
+						console.log('Shown');
+					})
+					.on('close.simplelightbox', function(){
+						console.log('Requested for closing');
+					})
+					.on('closed.simplelightbox', function(){
+						console.log('Closed');
+					})
+					.on('change.simplelightbox', function(){
+						console.log('Requested for change');
+					})
+					.on('next.simplelightbox', function(){
+						console.log('Requested for next');
+					})
+					.on('prev.simplelightbox', function(){
+						console.log('Requested for prev');
+					})
+					.on('nextImageLoaded.simplelightbox', function(){
+						console.log('Next image loaded');
+					})
+					.on('prevImageLoaded.simplelightbox', function(){
+						console.log('Prev image loaded');
+					})
+					.on('changed.simplelightbox', function(){
+						console.log('Image changed');
+					})
+					.on('nextDone.simplelightbox', function(){
+						console.log('Image changed to next');
+					})
+					.on('prevDone.simplelightbox', function(){
+						console.log('Image changed to prev');
+					})
+					.on('error.simplelightbox', function(e){
+						console.log('No image found, go to the next/prev');
+						console.log(e);
+					});
+				});
+				</script>
+			</div>
+			<a href="video.html" id="video"> Click here for video</a>
+		</div>
+		
+		
+	</div>
+</body>
+</html>

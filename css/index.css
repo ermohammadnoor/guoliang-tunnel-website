@@ -1,0 +1,131 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #d9d9d9;
+}
+#mainContainer{
+	width: 1300px;
+	height: auto;
+	margin: 0 auto;
+}
+#mainImage{
+	width: 1299px;
+	height: 400px;
+}
+#mainImage img{
+	width: 1299px;
+	height: 400px;
+	position: absolute;	
+	z-index: 0;
+	opacity: .8;
+}
+#menu{
+
+	width: 670px;
+	height: 60px;
+	position: absolute;
+	z-index: 1;	
+	right: 50px;
+}
+#menu div{
+	text-align: center;
+	line-height: 60px;
+	float: left;
+	width: auto;
+	color: red;
+	border-right: 1px solid white;
+}
+#menu div a{
+	text-decoration:none;
+	color: #F0EFF4;
+	padding: 20px;
+}
+#menu div a:hover{
+	background:#404443;
+	text-decoration:underline;
+	font-size: 20px;
+	line-height: 60px;
+}
+#titleDiv{
+	margin:150px 60px;
+	font-size: 70px;
+	color: white;
+	position: absolute;
+	z-index: 1;
+}
+#marqueText{
+	width: 1297px;
+	height: 40px;
+	border:1px solid black;
+	line-height: 40px;
+	background-color: #404443;
+	color: white;
+	font-size: 20px;	
+
+}
+
+#footer{
+	background-color: white;	
+	width: 1238px;
+	height: 150px;
+	margin-top: 20px;
+	border: 1px solid #404443;
+	padding-left: 60px;
+}
+#footer div{
+	width: 170px;
+	height: 125px;
+	margin:10px 60px;	
+	float: left;
+}
+#dangerImage{
+	width: 60px;
+	margin: 20px 55px;
+	height: 40px;
+}
+#dangerText{
+	font-size: 18px;
+	text-decoration: none;
+	color: #404443;
+	position: relative;
+	bottom: 16px;
+	right: -5px;
+}
+#visitingImage{
+	width: 60px;
+	margin: 15px 55px;
+	height: 60px; 	
+}
+#visitingText{
+	font-size: 18px;
+	text-decoration: none;
+	color: #404443;
+	position: relative;
+	bottom: 16px;
+	right: -5px;	
+}
+#cityImage{
+	width: 70px;
+	height: 60px;
+	margin: 20px 50px;	
+}
+#cityText{
+	font-size: 18px;
+	text-decoration: none;
+	color: #404443;
+	position: relative;
+	bottom: 22px;
+	right: -35px;	
+}
+#faqImage{
+	width: 50px;
+	margin: 20px 60px;	
+}
+#faqText{
+	font-size: 18px;
+	text-decoration: none;
+	color: #404443;
+	position: relative;
+	bottom: 20px;
+	right: -5px;
+}

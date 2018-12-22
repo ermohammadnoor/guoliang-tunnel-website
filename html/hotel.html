@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guoliang Tunnel Road | Hotel</title>
+	<meta name="viewport" content="width=device-width ,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="..\css\hotel.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="icon" type="image/png" href="..\images\logo1.jpg" >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="..\javascript\hotel.js"></script>
+	
+</head>
+<body onload="showImage();">
+	<div id="mainConatiner">
+		<div id="container">
+			<hr>
+			<div id="heading">
+				Hotels Near Guoliang Tunnel
+				<i class="fa fa-navicon" id="navIcon"><span id="menu">MENU</span></i>
+			</div>	
+			<div id="navBar">
+				<ul class="topnav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="hotel.html">Hotel</a></li>
+					<li><a href="map.html">Maps</a></li>
+					<li><a href="danger.html">Danger of Guoliang </a></li>
+					<li><a href="visit.html">Visiting Guoliang</a></li>
+					<li><a href="guoliang360.html">Guoliang 360</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li class="right"><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="infoDiv">
+				<div class="infoImgDiv">
+					<div class="ratingDiv">
+						<center>Rating<br>4.0/5</center>
+ 					</div>
+					<img class="mySlides1" src="..\images\hotel\h1_1.jpg">
+					<img class="mySlides1" src="..\images\hotel\h1_2.jpg">
+					<img class="mySlides1" src="..\images\hotel\h1_3.jpg">
+					<img class="mySlides1" src="..\images\hotel\h1_4.jpg">
+					<i class="fa fa-angle-right" id="right" ></i>
+					<i class="fa fa-angle-left" id="left" ></i>
+					<script type="text/javascript">
+						document.getElementById("right").onclick = function(){
+							myIndex1++;
+							var i;
+							var x = document.getElementsByClassName("mySlides1");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex1 > x.length)
+							 {myIndex1 = 1;}
+
+							x[myIndex1-1].style.display = "block";
+						}
+						document.getElementById("left").onclick = function(){
+							myIndex1--;
+							var i;
+							var x = document.getElementsByClassName("mySlides1");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex1 <= 0)
+							 {myIndex1 = x.length-1;}
+
+							x[myIndex1-1].style.display = "block";
+						}
+						/**/
+					</script>
+					<div class="hotelInfo">
+						<p class="hotelName"><a href="https://www.booking.com/hotel/cn/the-pavilion-guilin.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;aer=1;all_sr_blocks=213201001_98734472_7_0_0;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1910975;dest_type=city;dist=0;group_adults=2;highlighted_blocks=213201001_98734472_7_0_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;spdest=ci%2F-1910975;spdist=9.0;srfid=07a190966a04ef17077b03869631085f2bc298a5X1;type=total;ucfs=1&#hotelTmpl"> The Pavilion Guilin</a></p >
+						<p class="hotelName-info">9km away from Huxian</p>
+						<center><a href="https://www.booking.com/hotel/cn/the-pavilion-guilin.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;aer=1;all_sr_blocks=213201001_98734472_7_0_0;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1910975;dest_type=city;dist=0;group_adults=2;highlighted_blocks=213201001_98734472_7_0_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;spdest=ci%2F-1910975;spdist=9.0;srfid=07a190966a04ef17077b03869631085f2bc298a5X1;type=total;ucfs=1&#hotelTmpl"><button id="more">Book now</button></a></center>
+					</div>	
+				</div>
+
+				<div class="infoImgDiv">
+					<div class="ratingDiv">
+						<center>Rating<br>4.0/5</center>
+ 					</div>
+					<img class="mySlides2" src="..\images\hotel\h2_1.jpg">
+					<img class="mySlides2" src="..\images\hotel\h2_2.jpg">
+					<img class="mySlides2" src="..\images\hotel\h2_3.jpg">
+					<img class="mySlides2" src="..\images\hotel\h2_4.jpg">
+					<i class="fa fa-angle-right" id="right2" ></i>
+					<i class="fa fa-angle-left" id="left2" ></i>
+					<script type="text/javascript">
+						document.getElementById("right2").onclick = function(){
+							myIndex2++;
+							var i;
+							var x = document.getElementsByClassName("mySlides2");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex2 > x.length)
+							 {myIndex2 = 1;}
+
+							x[myIndex2-1].style.display = "block";
+						}
+						document.getElementById("left2").onclick = function(){
+							myIndex2--;
+							var i;
+							var x = document.getElementsByClassName("mySlides2");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex2 <= 0)
+							 {myIndex2 = x.length-1;}
+
+							x[myIndex2-1].style.display = "block";
+						}
+						/**/
+					</script>
+					<div class="hotelInfo">
+						<p class="hotelName"><a href="https://www.booking.com/hotel/cn/guilin-zizhou-four-season-resort.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1907565;dest_type=city;dist=0;group_adults=2;hpos=2;no_rooms=1;room1=A%2CA;sb_price_type=total;soh=1;soldout=0%2C0;srfid=daa4787d3bb01046763324dd5c07aeef9cb26df0X2;type=total;ucfs=1&#hotelTmpl"> Guilin Zizhou Panorama Resort</a></p >
+						<p class="hotelName-info">11km away from Huxian</p>
+						<center><a href="https://www.booking.com/hotel/cn/guilin-zizhou-four-season-resort.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1907565;dest_type=city;dist=0;group_adults=2;hpos=2;no_rooms=1;room1=A%2CA;sb_price_type=total;soh=1;soldout=0%2C0;srfid=daa4787d3bb01046763324dd5c07aeef9cb26df0X2;type=total;ucfs=1&#hotelTmpl"><button id="more">Book now</button></a></center>
+					</div>	
+				</div>
+				<div class="infoImgDiv">
+					<div class="ratingDiv">
+						<center>Rating<br>4.0/5</center>
+ 					</div>
+					<img class="mySlides3" src="..\images\hotel\h3_1.jpg">
+					<img class="mySlides3" src="..\images\hotel\h3_2.jpg">
+					<img class="mySlides3" src="..\images\hotel\h3_3.jpg">
+					<img class="mySlides3" src="..\images\hotel\h3_4.jpg">
+					<i class="fa fa-angle-right" id="right3" ></i>
+					<i class="fa fa-angle-left" id="left3" ></i>
+					<script type="text/javascript">
+						document.getElementById("right3").onclick = function(){
+							myIndex3++;
+							var i;
+							var x = document.getElementsByClassName("mySlides3");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex3 > x.length)
+							 {myIndex3 = 1;}
+
+							x[myIndex3-1].style.display = "block";
+						}
+						document.getElementById("left3").onclick = function(){
+							myIndex3--;
+							var i;
+							var x = document.getElementsByClassName("mySlides3");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex3 <= 0)
+							 {myIndex3 = x.length-1;}
+
+							x[myIndex3-1].style.display = "block";
+						}
+						/**/
+					</script>
+					<div class="hotelInfo">
+						<p class="hotelName"><a href="https://www.booking.com/hotel/cn/gui-lin-lin-gui-hua-yang-nian-fu-peng-xi-lai-deng-jiu-dian.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;aer=1;all_sr_blocks=122372602_85854554_2_2_0;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1910975;dest_type=city;dist=0;group_adults=2;highlighted_blocks=122372602_85854554_2_2_0;hpos=3;no_rooms=1;room1=A%2CA;sb_price_type=total;spdest=ci%2F-1910975;spdist=18.1;srfid=07a190966a04ef17077b03869631085f2bc298a5X3;type=total;ucfs=1&#hotelTmpl"> Four Points By Sheraton Guilin Lingui </a></p >
+						<p class="hotelName-info">18.1km away from Huxian</p>
+						<center><a href="https://www.booking.com/hotel/cn/gui-lin-lin-gui-hua-yang-nian-fu-peng-xi-lai-deng-jiu-dian.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;aer=1;all_sr_blocks=122372602_85854554_2_2_0;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1910975;dest_type=city;dist=0;group_adults=2;highlighted_blocks=122372602_85854554_2_2_0;hpos=3;no_rooms=1;room1=A%2CA;sb_price_type=total;spdest=ci%2F-1910975;spdist=18.1;srfid=07a190966a04ef17077b03869631085f2bc298a5X3;type=total;ucfs=1&#hotelTmpl"><button id="more">Book now</button></a></center>
+					</div>	
+				</div>
+				<div class="infoImgDiv">
+					<div class="ratingDiv">
+						<center>Rating<br>4.0/5</center>
+ 					</div>
+					<img class="mySlides4" src="..\images\hotel\h4_1.jpg">
+					<img class="mySlides4" src="..\images\hotel\h4_2.jpg">
+					<img class="mySlides4" src="..\images\hotel\h4_3.jpg">
+					<img class="mySlides4" src="..\images\hotel\h4_4.jpg">
+					<i class="fa fa-angle-right" id="right4" ></i>
+					<i class="fa fa-angle-left" id="left4" ></i>
+					<script type="text/javascript">
+						document.getElementById("right4").onclick = function(){
+							myIndex4++;
+							var i;
+							var x = document.getElementsByClassName("mySlides4");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex4 > x.length)
+							 {myIndex4 = 1;}
+
+							x[myIndex4-1].style.display = "block";
+						}
+						document.getElementById("left4").onclick = function(){
+							myIndex4--;
+							var i;
+							var x = document.getElementsByClassName("mySlides4");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";  
+							}
+							//myIndex1++;
+							if (myIndex4 <= 0)
+							 {myIndex4 = x.length-1;}
+
+							x[myIndex4-1].style.display = "block";
+						}
+						/**/
+					</script>
+					<div class="hotelInfo">
+						<p class="hotelName"><a href="https://www.booking.com/hotel/cn/vienna-guilin-wanfu-square.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;aer=1;all_sr_blocks=162918202_98878038_0_0_0;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1910975;dest_type=city;dist=0;group_adults=2;highlighted_blocks=162918202_98878038_0_0_0;hpos=4;no_rooms=1;room1=A%2CA;sb_price_type=total;spdest=ci%2F-1910975;spdist=19.3;srfid=07a190966a04ef17077b03869631085f2bc298a5X4;type=total;ucfs=1&#hotelTmpl"> Vienna Hotel Guilin Wanfu Square</a></p >
+						<p class="hotelName-info">19.3km away from Huxian</p>
+						<center><a href="https://www.booking.com/hotel/cn/vienna-guilin-wanfu-square.html?aid=318615;label=Low_CPA_English_EN_IN_21456997825-t1vm426t%2A0CcdTL1xAXDhgS99511008625%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atidsa-64415618185%3Alp1007792%3Ali%3Adec%3Adm;sid=d480e08e5916e6278678a27130c60cba;aer=1;all_sr_blocks=162918202_98878038_0_0_0;checkin=2017-04-29;checkout=2017-04-30;dest_id=-1910975;dest_type=city;dist=0;group_adults=2;highlighted_blocks=162918202_98878038_0_0_0;hpos=4;no_rooms=1;room1=A%2CA;sb_price_type=total;spdest=ci%2F-1910975;spdist=19.3;srfid=07a190966a04ef17077b03869631085f2bc298a5X4;type=total;ucfs=1&#hotelTmpl"><button id="more">Book now</button></a></center>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

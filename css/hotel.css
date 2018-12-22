@@ -1,0 +1,241 @@
+body{
+	padding: 0 auto;
+	margin: 0 25px;
+	background-color: #d9d9d9;
+}
+#mainContainer{
+	width: 1300px;
+	height: auto;
+	margin: 0 auto;
+	float: left;
+}
+#container{
+	width: 1200px;
+	height: auto;
+	margin: 10px 50px;
+//	border: 1px solid black;
+	float: left;
+	background-color: #595959;	
+}
+#container hr{
+	width: 1200px;
+	height: 5px;
+	margin:0px;
+	background-color: #262626;
+	border:0px;
+}
+#heading{
+	width: 1100px;
+	height: 50px;
+	padding-left: 100px;
+	background-color: #404040;
+	font-size: 40px;	
+	line-height: 50px;
+	color: #d9d9d9;
+}
+#navIcon{
+	float: right;
+	margin: 5px 50px;
+	height: 30px;
+	color:white;
+}
+#navBar {
+    display: none;
+    width: 1048px;
+    height: 50px;
+    margin-bottom: -5px;
+    padding: 0 75px;
+    background-color: #333333;
+}
+#menu{
+	font-size: 20px;
+	line-height: 50px;
+	position: relative;
+	top: -10px;
+	left: -110px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.infoDiv{
+	width: 1058px;
+	height: auto;
+	padding: 10px;
+	//border: 2px solid red;
+	margin: 25px 75px;
+	float: left;
+}
+.infoImgDiv{
+	width: 500px;
+	height: 300px;
+	border: 3px solid black;
+	margin-right: 23px;
+	margin-bottom: 23px;
+//	border-radius: 15px;
+	float: left;
+}
+.mySlides1,.mySlides2,.mySlides3,.mySlides4 {
+	display:none;
+	z-index: 0;
+}
+.infoImgDiv img{
+	width: 500px;
+	height: 200px;
+//	border-top-left-radius: 15px;
+//	border-top-right-radius: 15px; 
+	z-index: 0;
+	position: relative;
+	top: -50px;
+}
+.hotelInfo{
+	width: 500px;
+	height: 100px;
+	color: #595959;
+	border:1px solid black;
+	position: relative;
+	top: -147px;
+	background-color: #cccccc;
+}
+.hotelName{
+	font-weight: none;
+	position: relative;
+	top: -25px;
+	text-align: center;
+	font-size: 30px
+}
+.hotelName a{
+	color: #595959;
+	text-decoration: none;
+	font-weight: none;
+}
+.hotelName a:hover{
+	text-decoration: underline;
+	font-weight: none;
+}
+.hotelName-info{
+	font-size: 15px;
+	position: relative;
+	bottom: 50px;
+	text-align: center;
+}
+.ratingDiv{
+	width: 70px;
+	height: 40px;
+	padding: 5px 0;
+	position: relative;
+	background-color: #d9d9d9;
+	left: 410px;
+	line-height: 20px;
+	top: 15px;
+	z-index: 1;
+	color: #3e3e3e;
+}
+#more{
+	font-size: 15px;
+	font-weight: none;
+	position: relative;
+	top: -55px;
+	//text-decoration: underline;
+	background-color:#d9d9d9;
+	color: #595959;
+	border : 1px solid #595959;
+}
+#right{
+	display: block;
+	position: relative;
+	left: 480px;
+	top: -150px;
+	z-index: 2;
+	font-size:48px;
+	color:white;
+}
+#left{
+	display: block;
+	position: relative;
+	top: -200px;
+	z-index: 2;
+	font-size:48px;
+	color:white;
+}
+#right2{
+	display: block;
+	position: relative;
+	left: 480px;
+	top: -150px;
+	z-index: 2;
+	font-size:48px;
+	color:white;	
+}
+#left2{
+	display: block;
+	position: relative;
+	top: -200px;
+	z-index: 2;
+	font-size:48px;
+	color:white;
+}
+#right3{
+	display: block;
+	position: relative;
+	left: 480px;
+	top: -150px;
+	z-index: 2;
+	font-size:48px;
+	color:white;	
+}
+#left3{
+	display: block;
+	position: relative;
+	top: -200px;
+	z-index: 2;
+	font-size:48px;
+	color:white;
+}
+#right4{
+	display: block;
+	position: relative;
+	left: 480px;
+	top: -150px;
+	z-index: 2;
+	font-size:48px;
+	color:white;
+}
+#left4{
+	display: block;
+	position: relative;
+	top: -200px;
+	z-index: 2;
+	font-size:48px;
+	color:white;
+}
+
+
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
